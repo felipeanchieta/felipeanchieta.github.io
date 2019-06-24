@@ -18,6 +18,13 @@ header h1 {
 
 header h2 {
     font-size: 1.5em;
+    font-weight: 10;
+    letter-spacing: .1em;
+    text-transform: uppercase;    
+}
+
+main {
+    margin: 0 3em;
 }
 
 main article {
@@ -56,5 +63,5 @@ footer img.face {
 }
 
 footer img.links {
-    width: 5em;
+    width: 3em;
 }
