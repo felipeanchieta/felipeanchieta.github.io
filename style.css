@@ -1,4 +1,5 @@
 body {
+    align-items: center;
     background-color: hsl(0, 0%, 93%);
     color: hsl(330, 1%, 36%);
     display: flex;
