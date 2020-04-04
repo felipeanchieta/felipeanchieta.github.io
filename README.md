@@ -1,3 +1,3 @@
 # felipeanchieta.github.io
 
-this is the source code of my github page. it is meant to be kept as simple as possible.
+This is the source code of my github page. It's meant to be as simple as possible.
