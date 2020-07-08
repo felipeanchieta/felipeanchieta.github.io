@@ -48,7 +48,11 @@ footer {
 }
 
 .profile-drawing {
+    background: whitesmoke;
+    border-radius: 100%;
+    margin: 1rem;
     max-height: 200px;
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+    padding: 2rem;
+    width: 12rem;
+    height: 12rem;
 }
