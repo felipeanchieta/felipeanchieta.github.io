@@ -9,6 +9,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2vw;
     font-family: Inconsolata, Monaco, "Courier New", monospace;
+    font-weight: normal;
     padding: 2em;
     margin: 2vw auto;
     max-width: 768px;
@@ -31,6 +32,10 @@ article {
 
 article p {
     margin: 1vw 0;
+}
+
+a:link, a:visited {
+    color: dodgerblue;
 }
 
 footer {
