@@ -1,40 +1,92 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio page of Felipe Costa.">
-    <meta name="theme-color" content="#000000"/>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <title>Felipe Costa</title>
-  </head>
-  <body>
-    <header>
-      <h1>Felipe Costa</h1>
-      <h2>Back-end Developer</h2>
-    </header>
-    <article>
-      <p>
-        Currently works for Circula, and is based in Berlin since 2019.
-      </p>
-      <p>
-        Has previously worked for Ada Health,
-        ToolTime,
-        Guiabolso,
-        Thales,
-        and Altice Labs.
-      </p>
-      <p>Graduated from the Universidade Federal do ABC 
-        with the bachelor degrees of Science & Technology (2016) 
-        and Computer Science (2018).</p>
-    </article>
-    <aside>
-      <img src="drawing.svg" class="profile-drawing"
-             alt="Drawing of a male face with short curly hair wearing rounded glasses."/>
-      <p>Drawing by <a href="https://luizatagliatela.com">Tagliatela</a></p>
-    </aside>
-    <footer>
-      <p>Reach me out at <a href="https://www.linkedin.com/in/felipeanchieta/?locale=en_US">LinkedIn</a> :)</p>
-    </footer>
-  </body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Portfolio page of Felipe Costa.">
+		<meta name="theme-color" content="#000000"/>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
+		<style>
+			body {
+			align-items: center;
+			background-color: black;
+			color: whitesmoke;
+			display: flex;
+			flex-direction: row;
+			flex-flow: row wrap;
+			flex-wrap: wrap;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 2vw;
+			font-family: Inconsolata, Monaco, "Courier New", monospace;
+			padding: 2em;
+			margin: 2vw auto;
+			max-width: 768px;
+			}
+			header {
+			flex: auto;
+			width: 100%;
+			}
+			h1, h2 {
+			font-weight: normal;
+			}
+			aside {
+			flex: 1;
+			min-width: 320px;
+			text-align: center;
+			}
+			article {
+			flex: 2;
+			}
+			article p {
+			margin: 1vw 0;
+			}
+			a:link, a:visited {
+			color: dodgerblue;
+			}
+			footer {
+			flex: auto;
+			text-align: center;
+			width: 100%;
+			}
+			.profile-drawing {
+			background: whitesmoke;
+			border-radius: 100%;
+			margin: 1rem;
+			max-height: 200px;
+			padding: 2rem;
+			width: 12rem;
+			height: 12rem;
+			}
+		</style>
+		<title>Felipe Costa</title>
+	</head>
+	<body>
+		<header>
+			<h1>Felipe Costa</h1>
+			<h2>Back-end Developer</h2>
+		</header>
+		<article>
+			<p>
+				Currently works for Circula, and is based in Berlin since 2019.
+			</p>
+			<p>
+				Has previously worked for Ada Health,
+				ToolTime,
+				Guiabolso,
+				Thales,
+				and Altice Labs.
+			</p>
+			<p>Graduated from the Universidade Federal do ABC
+				with the bachelor degrees of Science &amp; Technology (2016)
+				and Computer Science (2018).
+			</p>
+		</article>
+		<aside>
+			<img src="drawing.svg" class="profile-drawing"
+				alt="drawing of a male face with short curly hair wearing rounded glasses"/>
+			<p>Drawing by <a href="https://luizatagliatela.com">Tagliatela</a></p>
+		</aside>
+		<footer>
+			<p>Reach me out at <a href="https://www.linkedin.com/in/felipeanchieta/?locale=en_US">LinkedIn</a> :)</p>
+		</footer>
+	</body>
 </html>
